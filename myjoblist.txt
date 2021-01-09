@@ -1,0 +1,3 @@
+matlab -batch "doSomething('sub-001')"
+matlab -batch "doSomething('sub-002')"
+matlab -batch "doSomething('sub-004')"
