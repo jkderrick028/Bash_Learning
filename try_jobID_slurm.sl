@@ -3,7 +3,7 @@
 #SBATCH --job-name=try_job_id
 #SBATCH --account=def-mmur      # adjust this to match the accounting group you are using to submit jobs
 #SBATCH --time=0-0:5          # adjust this to match the walltime of your job     
-#SBATCH --mem=100M            # adjust this according to the memory requirement per node you need
+#SBATCH --mem=1G            # adjust this according to the memory requirement per node you need
 #SBATCH --mail-user=jxiang27@uwo.ca # adjust this to match your email address
 #SBATCH --mail-type=ALL
 
