@@ -6,9 +6,6 @@
 #SBATCH --mem=1G            # adjust this according to the memory requirement per node you need
 #SBATCH --mail-user=jxiang27@uwo.ca # adjust this to match your email address
 #SBATCH --mail-type=ALL
-
-mkdir haha
-
 #SBATCH --output=haha/try_job_id%A_%a.out
 #SBATCH --error=haha/try_job_id%A_%a.err
 
