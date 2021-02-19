@@ -10,3 +10,4 @@ function try_jobID(jobid)
 % parpool(local_cluster);
 
 disp(jobid);
+disp(class(jobid));
